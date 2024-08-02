@@ -1,0 +1,125 @@
+/* General Body Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(3, 30, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* General Container Styles */
+.content-container {
+    background: rgba(88, 151, 223, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Home Button Styles */
+.home-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color:#007BFF ;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%; /* Asegura que el formulario se ajuste al contenedor */
+}
+
+/* Input Styles */
+form input[type="text"], form input[type="password"], form input[type="email"], form textarea {
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    font-size: 20px;
+    width: 100%; /* Asegura que los campos se ajusten al contenedor */
+}
+
+/* Button Styles */
+form button {
+    padding: 5px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation Buttons */
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color:#007BFF ;
+}
+
+.prev-button {
+    background-color:#0056b3;
+}
+
+.prev-button:hover {
+    background-color:#007BFF ;
+}
+
+.nav-button span:last-child {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.prev-button span:first-child {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Espaciado Inferior del Texto */
+p {
+    margin-bottom: 60px; /* Reduce el espacio debajo del texto para ajustar la visualización */
+}
+
